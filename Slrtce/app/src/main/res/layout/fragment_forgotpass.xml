@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/reset_layout">
+
+            <!-- Logo -->
+            <ImageView android:src="@mipmap/ic_launcher"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginBottom="8dp"
+                       android:layout_gravity="center_horizontal" />
+
+            <TextView android:id="@+id/forgot"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginBottom="4dp"
+                      android:layout_marginTop="4dp"
+                      android:padding="4dp"
+                      android:text="Reset Password"
+                      android:textColor="#FFFFFF"
+                      android:gravity="center"
+                      android:layout_gravity="center"
+                      android:textSize="18sp"/>
+
+            <!-- Username Label -->
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:textColorHint="#FFF"
+                android:layout_marginBottom="4dp">
+
+                <android.support.design.widget.TextInputEditText android:id="@+id/input_fusername"
+                                                                 android:layout_width="match_parent"
+                                                                 android:layout_height="wrap_content"
+                                                                 android:textColor="#FFFFFF"
+                                                                 android:maxLines="1"
+                                                                 android:textSize="16sp"
+                                                                 android:hint="Username" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <!-- uniqueid Label -->
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:textColorHint="#FFF"
+                android:layout_marginBottom="4dp">
+
+                <android.support.design.widget.TextInputEditText android:id="@+id/input_fId"
+                                                                 android:layout_width="match_parent"
+                                                                 android:layout_height="wrap_content"
+                                                                 android:textColor="#FFFFFF"
+                                                                 android:maxLines="1"
+                                                                 android:textSize="16sp"
+                                                                 android:hint="Unique-Id" />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <!-- password Label -->
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:textColorHint="#FFF"
+                android:layout_marginBottom="4dp">
+
+                <android.support.design.widget.TextInputEditText android:id="@+id/input_fpassword"
+                                                                 android:layout_width="match_parent"
+                                                                 android:layout_height="wrap_content"
+                                                                 android:inputType="textPassword"
+                                                                 android:textColor="#FFFFFF"
+                                                                 android:maxLines="1"
+                                                                 android:textSize="16sp"
+                                                                 android:hint="New Password" />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <!-- confirmpassword Label -->
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:textColorHint="#FFF"
+                android:layout_marginBottom="4dp">
+
+                <android.support.design.widget.TextInputEditText android:id="@+id/input_fconfirmpass"
+                                                                 android:layout_width="match_parent"
+                                                                 android:layout_height="wrap_content"
+                                                                 android:inputType="textPassword"
+                                                                 android:textColor="#FFFFFF"
+                                                                 android:maxLines="1"
+                                                                 android:textSize="16sp"
+                                                                 android:hint="Confirm Password" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <!-- button login -->
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/reset_pass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:padding="16dp"
+                android:textColor="@android:color/white"
+                android:background="@drawable/button_bg"
+                android:layout_gravity="center"
+                android:text="reset"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

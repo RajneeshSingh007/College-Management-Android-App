@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:id="@+id/item_view"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center_vertical"
+              android:orientation="horizontal"
+              android:paddingBottom="5dp"
+              android:paddingLeft="5dp"
+              android:paddingRight="5dp"
+              android:background="?android:attr/selectableItemBackground"
+              android:paddingTop="5dp">
+
+
+    <TextView
+        android:id="@+id/syllabus_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:padding="4dp"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:layout_weight="0"
+        android:text="1."/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="2dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/syllabus_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:text="Syllabus Title"/>
+
+        <TextView
+            android:id="@+id/syllabus_dtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:layout_gravity="end"
+            android:paddingTop="4dp"
+            android:layout_marginEnd="4dp"
+            android:textColor="@android:color/black"
+            android:textSize="12sp"
+            android:alpha="0.7"
+            android:text="Syllabus Time"
+            android:visibility="visible"/>
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="4dp"
+        android:paddingLeft="4dp"
+        android:layout_weight="0"/>
+</LinearLayout>

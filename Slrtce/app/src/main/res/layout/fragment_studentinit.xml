@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                 xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                 android:orientation="vertical"
+                                                 android:layout_width="match_parent"
+                                                 android:fitsSystemWindows="true"
+                                                 android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/appbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:elevation="@dimen/elevation"
+                android:layout_gravity="top"
+                app:contentInsetStart="16dp"
+                app:layout_scrollFlags="scroll|enterAlways|snap"
+                app:popupTheme="@style/AppTheme.PopupOverlay">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:weightSum="2"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/toolbar_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:layout_weight="1"
+                        android:maxLines="1"
+                        android:layout_gravity="start"
+                        android:gravity="start"
+                        android:textColor="@android:color/white"
+                        android:textSize="18sp"
+                        android:padding="4dp"
+                        android:layout_marginStart="4dp"
+                        android:text="Save"/>
+
+                    <TextView
+                        android:id="@+id/save_init"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:layout_weight="1"
+                        android:maxLines="1"
+                        android:layout_gravity="end"
+                        android:gravity="end"
+                        android:textColor="@android:color/white"
+                        android:textSize="16sp"
+                        android:padding="4dp"
+                        android:layout_marginEnd="4dp"
+                        android:text="Save"/>
+                </LinearLayout>
+            </android.support.v7.widget.Toolbar>
+
+        </android.support.design.widget.AppBarLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/appbar"/>
+
+
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

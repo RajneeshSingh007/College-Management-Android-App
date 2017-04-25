@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+             android:background="#212121"
+              android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/fileviewer_Artwork"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="fitXY"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_marginBottom="?attr/actionBarSize"
+        android:transitionName="fileviewArtwork"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"/>
+
+</FrameLayout>

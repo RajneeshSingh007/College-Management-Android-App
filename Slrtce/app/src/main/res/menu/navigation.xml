@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/navigation"
+           android:enabled="true"
+           android:menuCategory="alternative"
+           android:checkableBehavior="single">
+
+        <item android:id="@+id/syllabus"
+              android:title="@string/syllabus"/>
+
+        <item android:id="@+id/notices"
+              android:title="@string/notices"/>
+
+        <item android:id="@+id/about"
+              android:title="@string/about"/>
+    </group>
+</menu>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SLRTCE Pocket App</string>
+    <string name="syllabus">Syllabus</string>
+    <string name="notices">Notices</string>
+    <string name="about">About</string>
+    <string name="students">Students</string>
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
+    <string name="teachers">Teachers</string>
+    <string name="Dept">Department</string>
+    <string name="upload">Upload</string>
+    <string name="general">General</string>
+    <string name="setup">Setup(1)</string>
+    <string name="About">About</string>
+    <string name="nteachers">NTeachers</string>
+    <string name="setup2">Setup(2)</string>
+</resources>

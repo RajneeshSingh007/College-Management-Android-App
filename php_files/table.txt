@@ -1,0 +1,21 @@
+// for login system table is required
+CREATE TABLE nonteacher(
+  id INT(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  unique_id VARCHAR(23) NOT NULL UNIQUE,
+  username VARCHAR(50) NOT NULL UNIQUE,
+  email VARCHAR(100) NOT NULL UNIQUE,
+  encrypted_password VARCHAR(80) NOT NULL,
+  salt VARCHAR(10) NOT NULL,
+  created_at DATETIME,
+  updated_at DATETIME NULL,
+  active INT(1) NULL,
+  HASH VARCHAR(32) NULL UNIQUE,
+  fullname VARCHAR(50) NULL,
+  nonteachid VARCHAR(1000) NOT NULL UNIQUE
+);
+
+
+
+
+// for attendance subject table is required
+CREATE TABLE atdsp(id int(100) PRIMARY KEY AUTO_INCREMENT,atrollno varchar(100), atdate Date, atstatus varchar(25))
