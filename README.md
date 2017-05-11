@@ -7,8 +7,30 @@ It helps Teacher to update syllabus,upload notices, take attendance easily from 
 - Beautiful LoginScreen.
 - Multiple Login System (Student, Teacher and Other)
 - In teacher Section, Teacher can save syllabus update,take attendance and upload notices, other files.
-- In Student Section, Student can see updated files and syllabus update.
+- In Student Section, Student will be able to see updated files and syllabus update.
 - In Other Section, Other can upload notices, other doc files. 
+
+# GuideLines :
+
+<p>
+# Localhost Testing.
+
+1. Download php mail test mail : <url>http://www.toolheap.com/test-mail-server-tool/ </url>for email verification on localhost.
+1. Start Wamp server.
+2. In cmd run "ipconfig" command (make sure your pc/laptop is connected to network lan or wifi) and note the ip of lan/wifi network .
+3. In android studio, Go to Java/package name/misc/utils/constants/ 
+ change link address to ip address (which you got from steps 2) so link will be like this :- http://some ip/demo/register.php...
+4. Browse to c/wamp (64 or 32) /www/create demo folder and paste all php files inside demo folder. 
+5. open phpmyadmin in browser, there you should create demo database inside that import the demo.sql file 
+6. Run test mail server tool. 
+7. Finally Check in emulator/phone (for phone, you should config wamp to work on phone ).
+8. If above test is success then you could upload files on serer.</p>
+
+# Notes :
+<p>
+1. Login System is based on integer flag such that every data goes perfectly in it's database table.
+2. Lots of optimisation is done so you have to check each files, still doubt mail me on mailto:developerrajneeshsingh@gmail.com.
+</p>
 
 # ScreenShots
 ----uploading soon----
@@ -28,7 +50,7 @@ It helps Teacher to update syllabus,upload notices, take attendance easily from 
  
  <p> If you used this project,Let me know,To add project in the list</p>
  
- <p> feel free to mail me @developerrajneeshsingh@gmail.com.</p>
+ <p> feel free to mail me mailto:developerrajneeshsingh@gmail.com.</p>
 
 # MIT License
 <pre>Copyright (c) 2017 Rajneesh Singh
