@@ -13,7 +13,7 @@ It helps Teacher to update syllabus,upload notices, take attendance easily from 
 
 # GuideLines :
 
- <B><h4> Localhost Testing. </h4></B>
+ <B><h3> Localhost Testing :</h3></B>
 
 <p>
 <br>1. Download php mail test mail : <url>http://www.toolheap.com/test-mail-server-tool/ </url>for email verification on localhost.
