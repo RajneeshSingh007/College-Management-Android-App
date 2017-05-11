@@ -25,8 +25,17 @@ It helps Teacher to update syllabus,upload notices, take attendance easily from 
 <br>6. open phpmyadmin in browser, there you should create demo database inside that import the demo.sql file 
 <br>7. Run test mail server tool. 
 <br>8. Finally Check in emulator/phone (for phone, you should config wamp to work on phone ).
-<br>9. If above test is success then you could upload files on serer.</p>
+<br>9. If above test is success then you could upload files on server.</p>
 
+ <B><h3> Server settings :</h3></B>
+ 
+<br> 1. For Email verify from server :
+			   	change this line " $headers = 'From:noreply@Slrtce pocket app' . "\r\n"; " to   " $headers = 'From: your server email name' . "\r\n"; in DB_Functions file.
+<br> 2. Change database connection in these listed files :
+        - Config.php
+        - attendance/Config.php
+        - syllabus/Config.php
+        
 # Notes :
 <p>
 <br>1. Login System is based on integer flag such that every data goes perfectly in it's database table.
