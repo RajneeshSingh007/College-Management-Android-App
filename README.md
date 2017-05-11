@@ -1,9 +1,10 @@
-# College-Management--Android-App
-<h3>Introduction</h3>
-This project is designed and created for my college (SLRTCE College Of Engineering) friend by me. It is compelete college management android app.
-It helps Teacher to update syllabus,upload notices, take attendance easily from teacher section. Also, updated syllabus data and uploaded files could view by student from student section.Other section is for upload notices,other documents. 
+# College-Management-Android-App
 
-# Features
+# Introduction :
+<p>This project is designed and created for my college (SLRTCE College Of Engineering) friend by me. It is compelete college management android app.
+It helps Teacher to update syllabus,upload notices, take attendance easily from teacher section. Also, updated syllabus data and uploaded files could view by student from student section.Other section is for upload notices,other documents. </p>
+
+# Features : 
 - Beautiful LoginScreen.
 - Multiple Login System (Student, Teacher and Other)
 - In teacher Section, Teacher can save syllabus update,take attendance and upload notices, other files.
@@ -12,30 +13,30 @@ It helps Teacher to update syllabus,upload notices, take attendance easily from 
 
 # GuideLines :
 
-<p>
-# Localhost Testing.
+ <B><h4> Localhost Testing. </h4></B>
 
-1. Download php mail test mail : <url>http://www.toolheap.com/test-mail-server-tool/ </url>for email verification on localhost.
-1. Start Wamp server.
-2. In cmd run "ipconfig" command (make sure your pc/laptop is connected to network lan or wifi) and note the ip of lan/wifi network .
-3. In android studio, Go to Java/package name/misc/utils/constants/ 
+<p>
+<br>1. Download php mail test mail : <url>http://www.toolheap.com/test-mail-server-tool/ </url>for email verification on localhost.
+<br>2. Start Wamp server.
+<br>3. In cmd run "ipconfig" command (make sure your pc/laptop is connected to network lan or wifi) and note the ip of lan/wifi network .
+<br>4. Run project in android studio, Go to Java/package name/misc/utils/constants/ 
  change link address to ip address (which you got from steps 2) so link will be like this :- http://some ip/demo/register.php...
-4. Browse to c/wamp (64 or 32) /www/create demo folder and paste all php files inside demo folder. 
-5. open phpmyadmin in browser, there you should create demo database inside that import the demo.sql file 
-6. Run test mail server tool. 
-7. Finally Check in emulator/phone (for phone, you should config wamp to work on phone ).
-8. If above test is success then you could upload files on serer.</p>
+<br>5. Browse to c/wamp (64 or 32) /www/create demo folder and paste all php files inside demo folder. 
+<br>6. open phpmyadmin in browser, there you should create demo database inside that import the demo.sql file 
+<br>7. Run test mail server tool. 
+<br>8. Finally Check in emulator/phone (for phone, you should config wamp to work on phone ).
+<br>9. If above test is success then you could upload files on serer.</p>
 
 # Notes :
 <p>
-1. Login System is based on integer flag such that every data goes perfectly in it's database table.
-2. Lots of optimisation is done so you have to check each files, still doubt mail me on mailto:developerrajneeshsingh@gmail.com.
+<br>1. Login System is based on integer flag such that every data goes perfectly in it's database table.
+<br>2. Lots of optimisation is done so you have to check each files, still doubt mail me on developerrajneeshsingh@gmail.com.
 </p>
 
-# ScreenShots
+# ScreenShots :
 ----uploading soon----
 
-# Library
+# Library :
 
 <p>
  <ul>
@@ -50,9 +51,9 @@ It helps Teacher to update syllabus,upload notices, take attendance easily from 
  
  <p> If you used this project,Let me know,To add project in the list</p>
  
- <p> feel free to mail me mailto:developerrajneeshsingh@gmail.com.</p>
+ <p> feel free to mail me developerrajneeshsingh@gmail.com.</p>
 
-# MIT License
+# MIT License :
 <pre>Copyright (c) 2017 Rajneesh Singh
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
