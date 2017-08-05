@@ -40,7 +40,7 @@
 <br>1. In student section, only fourth year cmpn depart. syllabus is added (for other year data you could add in the database).
 <br>2. Teachers could update only fourth year cmpn syllabus data (for other year data you could add in the database).
 <br>3. Login System is based on integer flag such that every data goes perfectly in it's database table.
-<br>4. Lots of optimization is done so you have to check each files and code too :), still doubt mail me on developerrajneeshsingh@gmail.com.
+<br>4. Lots of optimization is done so you have to check each files and code too :)
 </p>
 
 # ScreenShots :
@@ -61,7 +61,7 @@
 
 # Contact :
 
- <p>mail me developerrajneeshsingh@gmail.com.</p>
+ <p>mail me : developerrajneeshsingh@gmail.com.</p>
 
 # MIT License :
 <pre>Copyright (c) 2017 Rajneesh Singh
