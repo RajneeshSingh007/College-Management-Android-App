@@ -1,15 +1,14 @@
 # College-Management-Android-App
 
 # Introduction :
-<p>This project is designed and created for my college (SLRTCE College Of Engineering) friend by me. It is compelete college management android app.
-It helps Teacher to update syllabus,upload notices, take attendance easily from teacher section. Also, updated syllabus data and uploaded files could view by student from student section.Other section is for upload notices,other documents. </p>
+<p>This project is compelete college management android app.</p>
 
 # Features : 
 - Beautiful LoginScreen.
 - Multiple Login System (Student, Teacher and Other)
-- In teacher Section, Teacher can save syllabus update,take attendance and upload notices, other files.
+- In Teacher Section, Teacher will be able to save syllabus update,take attendance and upload notices.
 - In Student Section, Student will be able to see updated files and syllabus update.
-- In Other Section, Other can upload notices, other doc files. 
+- In Other Section, Other will be able to upload notices, other doc files. 
 
 # GuideLines :
 
