@@ -37,8 +37,10 @@
         
 # Notes :
 <p>
-<br>1. Login System is based on integer flag such that every data goes perfectly in it's database table.
-<br>2. Lots of optimisation is done so you have to check each files, still doubt mail me on developerrajneeshsingh@gmail.com.
+<br>1. In student section, only fourth year cmpn depart. syllabus is added (for other year data you could add in the database).
+<br>2. Teachers could update only fourth year cmpn syllabus data (for other year data you could add in the database).
+<br>3. Login System is based on integer flag such that every data goes perfectly in it's database table.
+<br>4. Lots of optimization is done so you have to check each files and code too :), still doubt mail me on developerrajneeshsingh@gmail.com.
 </p>
 
 # ScreenShots :
@@ -56,10 +58,10 @@
     </li>
  </ul>
  </p>
- 
- <p> If you used this project,Let me know,To add project in the list</p>
- 
- <p> feel free to mail me developerrajneeshsingh@gmail.com.</p>
+
+# Contact :
+
+ <p>mail me developerrajneeshsingh@gmail.com.</p>
 
 # MIT License :
 <pre>Copyright (c) 2017 Rajneesh Singh
