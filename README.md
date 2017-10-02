@@ -44,7 +44,7 @@
 </p>
 
 # ScreenShots :
-----uploading soon----
+<a href="https://github.com/RajneeshSingh007/College-Management-Android-App/tree/master/Screenshots">Screenshots folder </a>
 
 # Library :
 
