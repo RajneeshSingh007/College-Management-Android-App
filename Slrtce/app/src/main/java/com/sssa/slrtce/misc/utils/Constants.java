@@ -15,45 +15,45 @@ public class Constants {
     /**
      * Server Links
      */
-    public static final String SRegisterUrl = "http://slrtceapp.000webhostapp.com/register.php";
-    public static final String SLoginUrl = "http://slrtceapp.000webhostapp.com/login.php";
+    public static final String SRegisterUrl = "http://192.168.0.102/demo/register.php";
+    public static final String SLoginUrl = "http://192.168.0.102/demo/login.php";
 
-    public static final String TRegisterUrl = "http://slrtceapp.000webhostapp.com/otherregister.php";
-    public static final String TLoginUrl = "http://slrtceapp.000webhostapp.com/otherlogin.php";
+    public static final String TRegisterUrl = "http://192.168.0.102/demo/otherregister.php";
+    public static final String TLoginUrl = "http://192.168.0.102/demo/otherlogin.php";
 
-    public static final String NTegisterUrl = "http://slrtceapp.000webhostapp.com/nontregister.php";
-    public static final String NTLoginUrl = "http://slrtceapp.000webhostapp.com/nontlogin.php";
+    public static final String NTegisterUrl = "http://192.168.0.102/demo/nontregister.php";
+    public static final String NTLoginUrl = "http://192.168.0.102/demo/nontlogin.php";
 
-    public static final String SYLLABUSDATA = "http://slrtceapp.000webhostapp.com/syllabus/syllabusTeacher.php";
+    public static final String SYLLABUSDATA = "http://192.168.0.102/demo/syllabus/syllabusTeacher.php";
 
-    public static final String SAVINGSYLLABUS = "http://slrtceapp.000webhostapp.com/syllabus/saveSyllabus.php";
-    public static final String UNSAVINGSYLLABUS = "http://slrtceapp.000webhostapp.com/syllabus/unsaveSyllabus.php";
+    public static final String SAVINGSYLLABUS = "http://192.168.0.102/demo/syllabus/saveSyllabus.php";
+    public static final String UNSAVINGSYLLABUS = "http://192.168.0.102/demo/syllabus/unsaveSyllabus.php";
 
-    public static final String LOADSYLLABUS = "http://slrtceapp.000webhostapp.com/syllabus/dataStudent.php";
+    public static final String LOADSYLLABUS = "http://192.168.0.102/demo/syllabus/dataStudent.php";
 
-    public static final String UPLOADFILES = "http://slrtceapp.000webhostapp.com/upload.php";
-    public static final String CMPNUPLOAD = "http://slrtceapp.000webhostapp.com/cmpnupload.php";
-    public static final String ITUPLOAD = "http://slrtceapp.000webhostapp.com/itupload.php";
-    public static final String EXTCUPLOAD = "http://slrtceapp.000webhostapp.com/extcupload.php";
-    public static final String ETRXUPLOAD = "http://slrtceapp.000webhostapp.com/etrxupload.php";
-    public static final String MECHUPLOAD = "http://slrtceapp.000webhostapp.com/mechupload.php";
-    public static final String CIVILUPLOAD = "http://slrtceapp.000webhostapp.com/civilupload.php";
+    public static final String UPLOADFILES = "http://192.168.0.102/demo/upload.php";
+    public static final String CMPNUPLOAD = "http://192.168.0.102/demo/cmpnupload.php";
+    public static final String ITUPLOAD = "http://192.168.0.102/demo/itupload.php";
+    public static final String EXTCUPLOAD = "http://192.168.0.102/demo/extcupload.php";
+    public static final String ETRXUPLOAD = "http://192.168.0.102/demo/etrxupload.php";
+    public static final String MECHUPLOAD = "http://192.168.0.102/demo/mechupload.php";
+    public static final String CIVILUPLOAD = "http://192.168.0.102/demo/civilupload.php";
 
-    public static final String UPLOADFILESG = "http://slrtceapp.000webhostapp.com/gupload.php";
+    public static final String UPLOADFILESG = "http://192.168.0.102/demo/gupload.php";
 
-    public static final String FILEVIEWS = "http://slrtceapp.000webhostapp.com/getuploaded.php";
-    public static final String FILEVIEWS2 = "http://slrtceapp.000webhostapp.com/getuploadedg.php";
+    public static final String FILEVIEWS = "http://192.168.0.102/demo/getuploaded.php";
+    public static final String FILEVIEWS2 = "http://192.168.0.102/demo/getuploadedg.php";
 
-    public static final String FORGOTPASS = "http://slrtceapp.000webhostapp.com/forgotpassword.php";
+    public static final String FORGOTPASS = "http://192.168.0.102/demo/forgotpassword.php";
 
-    public static final String FORGOTPASST = "http://slrtceapp.000webhostapp.com/forgotpasswordt.php";
+    public static final String FORGOTPASST = "http://192.168.0.102/demo/forgotpasswordt.php";
 
-    public static final String FORGOTPASSNT = "http://slrtceapp.000webhostapp.com/forgotpasswordnt.php";
+    public static final String FORGOTPASSNT = "http://192.168.0.102/demo/forgotpasswordnt.php";
 
 
-    public static final String TAKEATTENDANCE = "http://slrtceapp.000webhostapp.com/attendance/insertAttendance.php";
+    public static final String TAKEATTENDANCE = "http://192.168.0.102/demo/attendance/insertAttendance.php";
     
-    public static final String VIEWATTENDANCE = "http://slrtceapp.000webhostapp.com/attendance/viewAttendance.php";
+    public static final String VIEWATTENDANCE = "http://192.168.0.102/demo/attendance/viewAttendance.php";
 
 
     /**

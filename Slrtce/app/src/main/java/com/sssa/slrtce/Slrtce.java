@@ -1,6 +1,7 @@
 package com.sssa.slrtce;
 
-import android.app.Application;
+import android.support.multidex.MultiDex;
+import android.support.multidex.MultiDexApplication;
 
 import com.androidnetworking.AndroidNetworking;
 
@@ -9,7 +10,7 @@ import com.androidnetworking.AndroidNetworking;
  * Created by Coolalien on 2/20/2017.
  */
 
-public class Slrtce extends Application {
+public class Slrtce extends MultiDexApplication {
 
     private static Slrtce istance;
 
@@ -18,6 +19,7 @@ public class Slrtce extends Application {
         super.onCreate();
         istance = this;
         AndroidNetworking.initialize(this);
+        MultiDex.install(this);
     }
 
     /**
